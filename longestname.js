@@ -1,11 +1,17 @@
+
+
 let name1 = "Jon Snow";
 let name2 = "Rick James";
 let name3 = "Chester Copperpot";
 
-console.log(name1);
+console.log(name3);
 
-if (name1.length === name2.length && name2.length === name3.length); {
-    console.log(`All three names, ${name1}, ${name2}, and ${name3}, are the same length`);}
+
+
+if (name1.length === name2.length && name2.length === name3.length) {
+    console.log(`All three names, ${name1}, ${name2}, and ${name3}, are the same length`);
+}
+
 
 
 
