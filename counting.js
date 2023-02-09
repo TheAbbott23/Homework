@@ -1,5 +1,5 @@
 
-//keyword condition code (or thing to do)
+//keyword; condition; code (or thing to do)
 
 
 for (i =1; i <=10; i++) {

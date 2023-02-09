@@ -18,7 +18,7 @@ function subtractBet(bet) {
 }
 
 do {
-    const betAmount = prompt ('How muc would you like to bet?');
+    const betAmount = prompt ('How much would you like to bet?');
     const headsOrTails = prompt ('Heads or Tails? [H/T]');
     
 
