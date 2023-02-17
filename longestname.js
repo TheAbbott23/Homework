@@ -4,7 +4,6 @@ let name1 = "Jon Snow";
 let name2 = "Rick James";
 let name3 = "Chester Copperpot";
 
-console.log(name3);
 
 
 

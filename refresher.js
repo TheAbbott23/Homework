@@ -6,7 +6,7 @@ console.log(fullname);
 const population = 632000;
 console.log(population);
 const threeXpopulation = population*3;
-console.log(population * 3);
+console.log(threeXpopulation);
 
 const javaScriptIsCool = true;
 const  colors = ['red', 'orange', 'yellow', 'green', 'blue'];
