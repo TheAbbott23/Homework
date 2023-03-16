@@ -1,0 +1,22 @@
+
+
+fieldset {
+    border: 0;
+}
+
+.shape {
+    border: 1px solid blue;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.highlighted {
+    background-color: blanchedalmond;
+    font-weight: 900;
+}

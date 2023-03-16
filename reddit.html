@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reddit.html">
+    <title>Document</title>
+</head>
+<body>
+
+        <div id="container"></div>
+    
+
+    <script>
+
+        // 1- Fetch data from the aww subreddit
+            // 1a- Find the array we need to loop over
+        //2- Loop over the array and create HTML elements for each post
+            //2a - Title, image, link
+        //Style it -->
+
+
+         const container = document.getElementById('container');
+
+         fetch('https://www.reddit.com/r/aww/.json')
+            .then(response => response.json ())
+            .then(data => {
+
+                console.log(data.data.children)
+
+                for (let post of data.data.children) {
+                    console.log(post.data.title);
+                    const div = document.createElement('div');
+                    div.innerText = post.data.title;
+                
+                    /** Build Div **/
+                    const img = document.createElement('img');
+                    img.src = post.data.thumbnail;
+
+                    div.append(img)
+                    /**Div Built**/
+
+                    container.append(div);
+     
+                }
+
+            
+            });
+
+
+    </script>
+</body>
+</html>
