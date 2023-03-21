@@ -1,5 +1,5 @@
 
-const match = require("./passwordCheck");
+const match = require("./pwTest.js");
 
 describe('match', ()=> {
     
@@ -11,4 +11,3 @@ describe('match', ()=> {
         expect(match.checkPassword('ryan@milk.com', 'gangster')).toEqual("Unauthorized");
     });
 });
-
